@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Barro Cheickna</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <div class="left-side">
+                <img src="ma_photo.jpg" alt="Photo de Barro Cheickna">
+                <div class="intro-text">
+                    <h1>Barro Cheickna</h1>
+                    <p>Ingénieur Informatique passionné par le développement et la technologie.</p>
+                    <p>Je suis spécialisé dans le développement web avec des compétences en Angular, Spring Boot, Laravel, et bien plus encore. J'ai des compétences solides en conception et développement, je fais du code optimisé et je suis familier avec les design patterns du GoF. Je fais également du développement Wordpress et du SEO pour ceux qui le souhaitent.</p>
+                    <a href="#contact" class="btn">Contactez-moi</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Expériences Professionnelles</h2>
+            <div class="experience-grid">
+                <div class="experience">
+                    <h3>Développeur informatique chez COFICAB (Juil. 2022 - Sept. 2022) <span class="details-link" onclick="toggleDetails('coficab-details')">Détails</span></h3>
+                    <div id="coficab-details" class="details visible">
+                        <p><i class="fas fa-check-circle"></i> Réalisation d'une solution web innovante pour la gestion des formations, optimisant les processus RH et la montée en compétence des équipes.</p>
+                        <p>Technologies utilisées : Angular, Laravel</p>
+                        <div class="carousel-vertical" id="coficab-carousel">
+                            <img src="coficab1.png" alt="Capture d'écran COFICAB 1">
+                            <img src="coficab2.png" alt="Capture d'écran COFICAB 2">
+                            <img src="coficab3.png" alt="Capture d'écran COFICAB 3">
+                            <img src="coficab4.png" alt="Capture d'écran COFICAB 4">
+                            <img src="coficab5.png" alt="Capture d'écran COFICAB 5">
+                        </div>
+                    </div>
+                </div>
+                <div class="experience">
+                    <h3>Développeur informatique chez NG SYSTEM (Déc. 2023 - Avr. 2024) <span class="details-link" onclick="toggleDetails('ngsystem-details')">Détails</span></h3>
+                    <div id="ngsystem-details" class="details visible">
+                        <p><i class="fas fa-check-circle"></i> Réalisation d'une solution web pour la gestion de paie, optimisant les processus RH et garantissant la conformité réglementaire.</p>
+                        <p>Technologies utilisées : Spring Boot, Angular</p>
+                        <div class="carousel-vertical" id="ngsystem-carousel">
+                            <img src="ng_system1.jpeg" alt="Capture d'écran NG SYSTEM 1">
+                            <img src="ng_system2.jpg" alt="Capture d'écran NG SYSTEM 2">
+                            <img src="ng_system3.jpg" alt="Capture d'écran NG SYSTEM 3">
+                            <img src="ng_system4.jpg" alt="Capture d'écran NG SYSTEM 4">
+                            <img src="ng_system5.jpg" alt="Capture d'écran NG SYSTEM 5">
+                        </div>
+                    </div>
+                </div>
+                <div class="experience">
+                    <h3>Développeur informatique Freelance (Oct. 2022 - Mars 2023) <span class="details-link" onclick="toggleDetails('freelance-details')">Détails</span></h3>
+                    <div id="freelance-details" class="details visible">
+                        <p><i class="fas fa-check-circle"></i> Conception et déploiement d'une solution web innovante pour l'optimisation de la gestion des ventes et des stocks, garantissant une performance accrue et une expérience utilisateur intuitive.</p>
+                        <p>Technologies utilisées : Laravel, Angular</p>
+                        <div class="carousel-vertical" id="freelance-carousel">
+                            <img src="sowCommerce1.png" alt="Capture d'écran Freelance 1">
+                            <img src="sowCommerce2.png" alt="Capture d'écran Freelance 2">
+                            <img src="sowCommerce3.png" alt="Capture d'écran Freelance 3">
+                            <img src="sowCommerce4.png" alt="Capture d'écran Freelance 4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Compétences</h2>
+            <div class="skills-grid">
+                <div><i class="fas fa-code"></i> Angular</div>
+                <div><i class="fas fa-code"></i> Spring Boot</div>
+                <div><i class="fas fa-code"></i> Laravel</div>
+                <div><i class="fas fa-code"></i> Wordpress</div>
+                <div><i class="fas fa-code"></i> SEO</div>
+                <div><i class="fas fa-code"></i> Conception et développement de solutions web</div>
+                <div><i class="fas fa-code"></i> Design patterns du GoF</div>
+                <div><i class="fas fa-code"></i> Développement de code optimisé</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/votreprofil" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://wa.me/votrenumero" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                <a href="mailto:votremail@example.com"><i class="fas fa-envelope"></i> Email</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Barro Cheickna. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
